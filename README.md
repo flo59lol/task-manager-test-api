@@ -29,6 +29,11 @@ Deux fichiers d'environnement sont à créer à partir des modèles fournis :
 
 Utilisez deux bases différentes : les tests vident les tables de leur base.
 
+## Démarrage
+
+`npm run dev` génère le client Prisma avant de lancer le serveur en mode développement.
+`npm start` génère le client, compile le projet, puis lance le serveur.
+
 ## Tests
 
 Les tests sont rangés dans `tests/` par type :
